@@ -1,0 +1,7 @@
+{
+  id: drink.id,
+  name: drink.name,
+  ingredients: drink.ingredients,
+  price: drink.price,
+  prep_time: drink.prep_time
+}

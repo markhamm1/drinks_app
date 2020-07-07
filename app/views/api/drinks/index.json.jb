@@ -1,9 +1,3 @@
 @drinks.map do |drink|
-  {
-    id: drink.id,
-    name: drink.name,
-    ingredients: drink.ingredients,
-    price: drink.price,
-    prep_time: drink.prep_time
-  }
+  render partial: "drink.json.jb", locals: {drink: drink}
 end
